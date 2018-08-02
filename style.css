@@ -1082,7 +1082,21 @@ p {
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
-
+.more-border{
+  border-width: 2px;
+  border-color: rgb(18, 33, 113);
+}
+.more-border-c{
+  border-width: 2px;
+  border-color: rgb(18, 33, 113);
+}
+.more-border:hover{
+  background-color: rgb(18, 33, 113);
+  color: #fff;
+}
+.more-border>h1:hover{
+  color: #fff;
+}
 .get-started-button {
     text-align: right;
 }
@@ -1304,4 +1318,16 @@ p {
 
 .copyright-text > p {
     margin-bottom: 0;
+}
+
+#authors img {
+  margin-top: -150px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+
+
+.w-50{
+  width: 50% !important;
 }

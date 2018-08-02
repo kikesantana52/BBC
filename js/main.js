@@ -11,6 +11,10 @@ $(document).ready(function() {
     $('.paas-item').collapse('hide');
     $(".port-item").removeClass('activate-pass');
     bloque = $(this).data("bloque");
-    $("#bloque-" + bloque).addClass('activate-pass')  
+    $("#bloque-" + bloque).addClass('activate-pass')
+  });
+  $(".iaas-t").click(function(event) {
+    $('.iaas-i').collapse('hide');
+    
   });
 });
