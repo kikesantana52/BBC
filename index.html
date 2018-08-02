@@ -37,7 +37,7 @@
                                       <div class="dropdown-menu" aria-labelledby="generalidades">
                                         <a class="dropdown-item" href="#features">¿Qué es cloud computing?</a>
                                         <a class="dropdown-item" href="#features">Características</a>
-                                        <a class="dropdown-item" href="#features">Ventajas y desventajas</a>
+                                        <a class="dropdown-item" href="#features"><i class="fa fa-arrow-circle-up"></i> Ventajas: y desventajas</a>
                                         <a class="dropdown-item" href="#features">Modelos de servicios</a>
                                         <a class="dropdown-item" href="#features">Modelos de despliegue</a>
                                       </div>
@@ -55,11 +55,11 @@
                                     <li class="nav-item dropdown">
                                       <a class="nav-link dropdown-toggle" href="#" id="CloudType" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cloud PAAS</a>
                                       <div class="dropdown-menu" aria-labelledby="CloudType">
-                                        <a class="dropdown-item" href="#features">Cloud PAAS</a>
-                                        <a class="dropdown-item" href="#features">Cloud PAAS</a>
-                                        <a class="dropdown-item" href="#features">Cloud PAAS</a>
-                                        <a class="dropdown-item" href="#features">Cloud PAAS</a>
-                                        <a class="dropdown-item" href="#features">Cloud PAAS</a>
+                                        <a class="dropdown-item nav-paas" href="#Paas" data-bloque="amazon" data-toggle="collapse" data-target="#amazon">Amazon Web Services</a>
+                                        <a class="dropdown-item nav-paas" href="#Paas" data-bloque="azure" data-toggle="collapse" data-target="#azure">Microsoft Azure</a>
+                                        <a class="dropdown-item nav-paas" href="#Paas" data-bloque="google" data-toggle="collapse" data-target="#google">Google Cloud Platform</a>
+                                        <a class="dropdown-item nav-paas" href="#Paas" data-bloque="gogrid" data-toggle="collapse" data-target="#gogrid">GoGrid</a>
+                                        <a class="dropdown-item nav-paas" href="#Paas" data-bloque="rackspace" data-toggle="collapse" data-target="#rackspace">Rackspace</a>
                                       </div>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -155,6 +155,33 @@
                 </div>
                 <!-- Single Special Area -->
                 <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-settings" aria-hidden="true"></i>
+                        </div>
+                        <h4>Modelos de servicios</h4>
+                        <strong>Iaas:</strong><p>Un proveedor proporciona a los clientes acceso de pago por uso al almacenamiento, las redes, los servidores y otros recursos informáticos en el cloud.</p>
+                        <strong>Paas:</strong><p>Un proveedor de servicios ofrece acceso a un entorno basado en cloud en el cual los usuarios pueden crear y distribuir aplicaciones. El proveedor proporciona la infraestructura subyacente.</p>
+                        <strong>Saas:</strong><p>Un proveedor de servicios proporciona el software y las aplicaciones a través de Internet. Los usuarios se suscriben al software y acceden a él a través de la web o las APIs del proveedor.</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-settings" aria-hidden="true"></i>
+                        </div>
+                        <h4>Modelos de despliege</h4>
+                        <strong>Cloud Privado:</strong><p>Disponer de un cloud privado real garantiza que una empresa dispondrá de recursos de uso exclusivo sobre los que virtualizar su plataforma. </p>
+                        <strong>Cloud Público:</strong><p>Las soluciones de cloud público ofrecen recursos IT sobre infraestructuras compartidas con más clientes. Entre las ventajas que aporta este tipo de soluciones está el modelo de consumo pago por uso, con opciones de elasticidad, pero normalmente con un sobrecoste respecto a soluciones de cloud privado</p>
+                        <strong>Cloud Privado:</strong><p>Es importante controlar algunos puntos que pueden ser críticos en una nube híbrida como son: <br>
+                        • Seguridad: Debemos controlar el flujo de transferencia de datos en nuestro Cloud Híbrido con el uso de soluciones de cifrado y VPNs. <br>
+                        • Hypervisor: Es posible que nuestro hypervisor sea diferente en nuestro Cloud Público y Cloud Privado, por lo que debemos utilizar alguna solución para simplificar la interoperabilidad entre ambos. <br>
+                        • Mejor visión de nuestra plataforma y servicio: Debemos tener clara la visión de como está desplegada nuestra infraestructura en uno o varios centros de datos. Para ello, podemos desarrollar vía API soluciones para controlar este punto o utilizar software de terceros que nos facilite esta gestión. <br> </p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
                         <div class="single-icon ">
                             <i class="fa fa-list" aria-hidden="true"></i>
@@ -183,7 +210,7 @@
                         <div class="single-icon">
                             <i class="fa fa-cloud-upload" aria-hidden="true"></i>
                         </div>
-                        <h4>Ventajas</h4>
+                        <h4><i class="fa fa-arrow-circle-up"></i> Ventajas:</h4>
                         <p class="popovere" data-toggle="popover"  data-content="Con un coste bastante accesible, una pyme puede comprar una licencia, mientras que una multinacional, comprará 500 licencias. Y las dos compartirán los mismos servicios.">
                           • Es escalable
                         </p>
@@ -213,7 +240,7 @@
                         <div class="single-icon">
                             <i class="fa fa-cloud-download" aria-hidden="true"></i>
                         </div>
-                        <h4>Desventajas</h4>
+                        <h4><i class="fa fa-arrow-circle-down"></i> Desventajas:</h4>
                         <p class="popovere" data-toggle="popover"  data-content="de que tenga una buena política y preserve los datos, aunque pueden hacerse backups periódicos al disco duro de nuestra ordenador.">
                           • Dependemos de nuestro proveedor
                         </p>
@@ -225,26 +252,7 @@
                         </p>
                     </div>
                 </div>
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="single-icon">
-                            <i class="ti-settings" aria-hidden="true"></i>
-                        </div>
-                        <h4>Modelos de servicios</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                    </div>
-                </div>
-                <!-- Single Special Area -->
-                <div class="col-12 col-md-4">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="single-icon">
-                            <i class="ti-settings" aria-hidden="true"></i>
-                        </div>
-                        <h4>Modelos de despliege</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                    </div>
-                </div>
+
             </div>
         </div>
         <!-- Special Description Area -->
@@ -282,19 +290,19 @@
                             <div class="col-lg-12 col-xl-12 ml-xl-auto">
                                 <div class="special_description_content">
                                     <div class="line-shape"></div>
-                                    <strong>Desarrollador: </strong><p>Avishai Abrahami, Nadav Abrahami y Giora Kaplan</p>
-                                    <strong>Historia: </strong><p>Wix fue fundado en el 2006 por los israelíes Avishai Abrahami, Navad Abrahami y Giora Kaplan. La compañía, con sede en Tel Aviv, con oficinas en San Francisco, Nueva York, Dnipropetrovsk, y Vilnius, está respaldada por los inversores de "Capital".
+                                    <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>Avishai Abrahami, Nadav Abrahami y Giora Kaplan</p>
+                                    <strong><i class="fa fa-book"></i> Historia: </strong><p>Wix fue fundado en el 2006 por los israelíes Avishai Abrahami, Navad Abrahami y Giora Kaplan. La compañía, con sede en Tel Aviv, con oficinas en San Francisco, Nueva York, Dnipropetrovsk, y Vilnius, está respaldada por los inversores de "Capital".
                                     La compañía entró en una fase beta abierta en 2007 usando una plataforma basada en Adobe Flash.
                                     En abril de 2010 Wix tenía 3.5 millones de usuarios y recaudado $10 millones en financiación Serie C proporcionado por Benchmark Capital y los inversores existentes Besemer Venture Partners y Mangrove Capital Partners.] En marzo de 2011, Wix tenía 8.5 millones de usuarios y recaudado $40 millones en financiación en Serie D, con lo que su financiación total a esa fecha ascendió a $61 millones.8​ En abril de 2014, Wix anunció su adquisición de Appixia, una startup israelí para la creación de aplicaciones nativas de comercio móvil (M-Commerce). En octubre de 2014, Wix anunció su adquisición de OpenRest, un desarrollador de sistemas de pedidos en línea para restaurantes.
                                     </p>
-                                    <strong>Características: </strong><p>Permite a los usuarios crear sitios web HTML5 y sitios móviles a través del uso de herramientas de arrastrar y soltar en línea.</p>
-                                    <strong>Ventajas</strong>
+                                    <strong><i class="fa fa-list"></i> Características: </strong><p>Permite a los usuarios crear sitios web HTML5 y sitios móviles a través del uso de herramientas de arrastrar y soltar en línea.</p>
+                                    <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
                                     <p>
                                       • Es gratis <br>
                                       • Fácil de usar <br>
                                       • Amplia variedad de opciones <br>
                                     </p>
-                                    <strong>Desventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
                                     <p>
                                       • Dependencia de dominio <br>
                                       • No puedes emigrar la página si lo requieres después <br>
@@ -329,13 +337,13 @@
                             <div class="col-lg-12 col-xl-12 ml-xl-auto">
                                 <div class="special_description_content">
                                   <div class="line-shape"></div>
-                                    <strong>Desarrollador: </strong><p>David Rusenko, Chris Fanini, y Dan Veltri</p>
-                                    <strong>Historia: </strong><p>Fue creada en 2006, en San Francisco (California), por "David Rusenko", "Chris Fanini," y "Dan Veltri". En enero del 2007 fue seleccionada para el programa de capitalización de empresas de Silicon Valley denominado Y.
+                                    <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>David Rusenko, Chris Fanini, y Dan Veltri</p>
+                                    <strong><i class="fa fa-book"></i> Historia: </strong><p>Fue creada en 2006, en San Francisco (California), por "David Rusenko", "Chris Fanini," y "Dan Veltri". En enero del 2007 fue seleccionada para el programa de capitalización de empresas de Silicon Valley denominado Y.
                                     En junio de 2008, Weebly añadió la función de cuentas Weebly profesional, permitiendo a los usuarios crear páginas protegidas con contraseña y actualizar los límites de tamaño de archivo, además de permitir recibir servicios de ayuda adicionales.
                                     A partir del 1 de octubre del 2015, Weebly C (Carbono) integró la plataforma a los dispositivos móviles como Android y iOS, y dispositivos como Apple Watch. Además, mejoró la interfaz de Weebly Dashboard del usuario permitiendo ver estadísticas del tráfico web, comentarios, número de ventas e información de aplicaciones de tercero de App Center en una misma ventana.[3]
                                     El 4 de agosto del 2016, Weebly lanzó "Weebly en Español". Con este nuevo lanzamiento, la plataforma web ahora está disponible completamente en español. Esta novedad trajo consigo nuevas funcionalidades como una comunidad íntegramente en español, nuevo servicio de atención al cliente y nuevas formas de pago como el peso mexicano (en México), el euro (en Europa) y el dólar (en Hispanoamérica).
                                     </p>
-                                    <strong>Características: </strong><p>
+                                    <strong><i class="fa fa-list"></i> Características: </strong><p>
                                       • Interfaz sencilla que permite arrastrar y soltar los distintos elementos que compondrán la página. <br>
                                       • No requieren habilidades técnicas en programación para sitios web. <br>
                                       • Docenas de diseños o temas profesionales para desarrollar un sitio web, con la posibilidad de modificar el CSS y el diseño HTML para que los usuarios más avanzados los ajusten a sus necesidades. <br>
@@ -347,7 +355,7 @@
                                       • Espacio publicitario Weebly no obstructivo en la parte inferior del sitio web para usuarios "gratuitos". <br>
                                       • Aplicaciones móviles Android y iOS. <br>
                                     </p>
-                                    <strong>Ventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
                                     <p>
                                       • Es intuitivo y tiene buenas funciones para blog. <br>
                                       • Weebly permite crear páginas web de manera gratuita. <br>
@@ -355,7 +363,7 @@
                                       • Weebly es un servicio en línea que permite crear y alojar uno o varios sitios web de manera fácil, rápida, gratuita y ¡sin publicidad!. Con un único registro, se pueden publicar todos los sitios, páginas y blogs dentro de los mismos, que se deseen. <br>
                                       • Weebly, tiene un entorno, muy intuitivo, está al alcance de cualquier usuario sin experiencia. Gracias a la avanzada tecnología que utiliza, es posible incorporar fotos, videos, mapas y todo tipo de elementos, con sólo arrastrar y soltar.<br>
                                     </p>
-                                    <strong>Desventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
                                     <p>
                                       • Poca identidad: Los dominios que utilizan estos sistemas que realmente son subdominios del dominio principal muchas veces dan una sensación aparente de poca seriedad, en mi caso no pasa, pero mucha gente lo cree así, en general son los mismos que piensan que el Pagerank es importante <br>
                                       • Falta de Flexibilidad: No poder hacer modificaciones de nuestra plantilla al 100%, la imposibilidad de instalar plugins y cosas de ese estilo en un principio pueden no molestar pero en cuanto pasan los meses empieza a pesar este aspecto. <br>
@@ -390,10 +398,10 @@
                             <div class="col-lg-12 col-xl-12 ml-xl-auto">
                                 <div class="special_description_content">
                                   <div class="line-shape"></div>
-                                    <strong>Desarrollador: </strong><p>Subrah Iyar and Min Zhu </p>
-                                    <strong>Historia: </strong><p>Ubrah Iyar y Min Zhu fundaron WebEx en 1996. Krimo Salem co-creó el software de llamada de videoconferencia bajo el nombre de ActiveTouch, que cambió su nombre a WebEx.Zhu había co fundado Future Labs (una de las primeras compañías en producir punto de software de colaboración de documentos) en 1991.Zhu conoció a Iyar, entonces vicepresidente y gerente general de Quarterdeck, cuando Quarterdeck adquirió Future Labs en 1996. Iyar se convirtió en presidente de Future Labs, que se había convertido en una filial de Quarterdeck, y el mismo año Iyar y Zhu pasaron a cofundar. WebEx. El 15 de marzo de 2007, Cisco Systems anunció que adquiriría WebEx por $ 3,2 mil millones.
+                                    <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>Subrah Iyar and Min Zhu </p>
+                                    <strong><i class="fa fa-book"></i> Historia: </strong><p>Ubrah Iyar y Min Zhu fundaron WebEx en 1996. Krimo Salem co-creó el software de llamada de videoconferencia bajo el nombre de ActiveTouch, que cambió su nombre a WebEx.Zhu había co fundado Future Labs (una de las primeras compañías en producir punto de software de colaboración de documentos) en 1991.Zhu conoció a Iyar, entonces vicepresidente y gerente general de Quarterdeck, cuando Quarterdeck adquirió Future Labs en 1996. Iyar se convirtió en presidente de Future Labs, que se había convertido en una filial de Quarterdeck, y el mismo año Iyar y Zhu pasaron a cofundar. WebEx. El 15 de marzo de 2007, Cisco Systems anunció que adquiriría WebEx por $ 3,2 mil millones.
                                     </p>
-                                    <strong>Características: </strong><p>
+                                    <strong><i class="fa fa-list"></i> Características: </strong><p>
                                     • Uso compartido del navegador web, documentos, aplicaciones y el escritorio en tiempo real <br>
                                     • Pizarra <br>
                                     • Grabe una reunión para compartirla, revisarla o editarla posteriormente <br>
@@ -408,7 +416,7 @@
                                     • Vídeo de alta definición <br>
 
                                     </p>
-                                    <strong>Ventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
                                     <p>
                                     • Webex apoya las tecnologías de E-Meeting y E-Learning. <br>
                                     • Tiene tiempo de conexión ilimitado. <br>
@@ -418,7 +426,7 @@
                                     • Se puede hacer correcciones en documentos y presentaciones dentro de la reunión. <br>
 
                                     </p>
-                                    <strong>Desventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
                                     <p>
                                     • Costo elevado, aproximadamente de $1500 dólares por la renta mensual. <br>
                                     • 10 usuarios en varas juntas al mismo tiempo. En caso de ser más se genera un costo adicional. <br>
@@ -454,23 +462,23 @@
                             <div class="col-lg-12 col-xl-12 ml-xl-auto">
                                 <div class="special_description_content">
                                   <div class="line-shape"></div>
-                                    <strong>Desarrollador: </strong><p>Marc Benioff, Parker Harris, Dave Moellenhoff, and Frank Dominguezs </p>
-                                    <strong>Historia: </strong><p>La compañía fue fundada en 1999 por el ex ejecutivo de Oracle Marc Benioff, Parker Harris, Dave Moellenhoff y Frank Dominguez como una compañía especializada en software como servicio (SaaS). Harris, Moellenhoff y Domínguez, tres desarrolladores de software previamente en la firma consultora Left Coast Software, fueron presentados a Benioff a través de un amigo y ex colega de Oracle, Bobby Yazdani. Harris y su equipo redactaron el software inicial de automatización de ventas, que se lanzó a sus primeros clientes entre septiembre y noviembre de 1999.
+                                    <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>Marc Benioff, Parker Harris, Dave Moellenhoff, and Frank Dominguezs </p>
+                                    <strong><i class="fa fa-book"></i> Historia: </strong><p>La compañía fue fundada en 1999 por el ex ejecutivo de Oracle Marc Benioff, Parker Harris, Dave Moellenhoff y Frank Dominguez como una compañía especializada en software como servicio (SaaS). Harris, Moellenhoff y Domínguez, tres desarrolladores de software previamente en la firma consultora Left Coast Software, fueron presentados a Benioff a través de un amigo y ex colega de Oracle, Bobby Yazdani. Harris y su equipo redactaron el software inicial de automatización de ventas, que se lanzó a sus primeros clientes entre septiembre y noviembre de 1999.
                                     En junio de 2004, la oferta pública inicial de la compañía se cotizó en la Bolsa de Nueva York con el símbolo CRM y recaudó US $ 110 millones. Los primeros inversores incluyen a Larry Ellison, Magdalena Yesil, Halsey Minor, Stewart Henderson, Mark Iscaro e Igor Sill de Geneva Venture Partners, además de Nancy Pelosi.
                                     En octubre de 2014, Salesforce anunció el desarrollo de su plataforma de éxito del cliente para unir los servicios de Salesforce, incluyendo ventas, servicios, marketing, análisis, comunidad y aplicaciones móviles. En octubre de 2017, Salesforce lanzó una herramienta de Facebook Analytics para vendedores de B2B
                                   </p>
-                                    <strong>Características: </strong><p>
+                                    <strong><i class="fa fa-list"></i> Características: </strong><p>
                                       • Se comercializa en modalidad CLOUD <br>
                                       • No es necesario Hardware <br>
                                       • No necesita instalación <br>
                                     </p>
-                                    <strong>Ventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
                                     <p>
                                       • Es válido tanto para una pyme de 1 trabajador, como para grandes corporaciones. <br>
                                       • El precio se establece en función de las necesidades de su empresa,y las licencias parten desde 1.60 euros al mes(para un único usuario). <br>
 
                                     </p>
-                                    <strong>Desventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
                                     <p>
                                     • Personalización costosa. <br>
                                     • Complejidad. <br>
@@ -506,14 +514,14 @@
                             <div class="col-lg-12 col-xl-12 ml-xl-auto">
                                 <div class="special_description_content">
                                   <div class="line-shape"></div>
-                                    <strong>Desarrollador: </strong><p>Tobias Lütke, Daniel Weinand, and Scott Lake </p>
-                                    <strong>Historia: </strong><p>Shopify fue fundada en 2004 por Tobias Lütke, Daniel Weinand y Scott Lake después de intentar abrir Snowdevil, una tienda en línea para equipos de snowboard. Insatisfecho con los productos existentes de comercio electrónico en el mercado, Lütke, un programador informático de oficio, en cambio construyó el suyo.Lütke usó el framework de aplicaciones web de código abierto Ruby on Rails para construir la tienda en línea de Snowdevil, y lo lanzó después de dos meses de desarrollo.
+                                    <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>Tobias Lütke, Daniel Weinand, and Scott Lake </p>
+                                    <strong><i class="fa fa-book"></i> Historia: </strong><p>Shopify fue fundada en 2004 por Tobias Lütke, Daniel Weinand y Scott Lake después de intentar abrir Snowdevil, una tienda en línea para equipos de snowboard. Insatisfecho con los productos existentes de comercio electrónico en el mercado, Lütke, un programador informático de oficio, en cambio construyó el suyo.Lütke usó el framework de aplicaciones web de código abierto Ruby on Rails para construir la tienda en línea de Snowdevil, y lo lanzó después de dos meses de desarrollo.
                                     Los fundadores de Snowdevil lanzaron la plataforma como Shopify en junio de 2006.
 
                                     En junio de 2009, Shopify lanzó una plataforma API y App Store. La API permite a los desarrolladores crear aplicaciones para las tiendas en línea de Shopify y luego venderlas en el Appify Shop Store.
 
                                   </p>
-                                    <strong>Características: </strong><p>
+                                    <strong><i class="fa fa-list"></i> Características: </strong><p>
                                     •  Insertar imágenes, títulos y descripciones en cada uno de tus productos. <br>
                                     •  Crear y administrar tu inventario de productos. <br>
                                     •  Organizar tus productos por categorías; indispensable para que los clientes potenciales encuentren lo que necesitan) <br>
@@ -526,7 +534,7 @@
                                     •  Administrar los accesos de tu equipo otorgando distintos niveles de permisos en la administración de tu tienda en línea <br>
 
                                     </p>
-                                    <strong>Ventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
                                     <p>
                                       • Rapidez  <br>
                                       • Puedes gestionar personalmente tu tienda  <br>
@@ -541,7 +549,7 @@
                                       • Gran cantidad de material informativo  <br>
 
                                     </p>
-                                    <strong>Desventajas</strong>
+                                    <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
                                     <p>
                                     • Algunas de las características de Shopify no son muy personalizables.. <br>
                                     • Hay una gran adaptabilidad en cuanto a diseño y pasarelas de pago se refiere. <br>
@@ -570,91 +578,346 @@
     </section>
     <!-- ***** Special Area End ***** -->
 
-    <!-- ***** Awesome Features Start ***** -->
-    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="Paas">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text -->
-                    <div class="section-heading text-center">
-                        <h2>Awesome Features</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
+          <div class="row">
+              <div class="col-12">
+                  <!-- Heading Text -->
+                  <div class="section-heading text-center">
+                      <h2>CLOUD PAAS</h2>
+                      <div class="line-shape"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="row w-100 section_padding_0_100">
+            <div class="d-flex  w-100 text-center">
+              <div id="bloque-amazon" class="port-item p-4 activate-pass" data-toggle="collapse" data-target="#amazon">
+                <img src="img/PAAS-img/AWS.png" alt="">
+              </div>
+              <div id="bloque-azure" class="port-item p-4 " data-toggle="collapse" data-target="#azure">
+                <img src="img/PAAS-img/Azure.png" alt="">
+              </div>
+              <div id="bloque-google" class="port-item p-4" data-toggle="collapse" data-target="#google">
+                <img src="img/PAAS-img/google.png" alt="">
+              </div>
+              <div id="bloque-gogrid" class="port-item p-4 " data-toggle="collapse" data-target="#gogrid">
+                <img src="img/PAAS-img/gogrid.png" alt="">
+              </div>
+              <div id="bloque-rackspace" class="port-item p-4 " data-toggle="collapse" data-target="#rackspace">
+                <img src="img/PAAS-img/rackspace.png" alt="">
+              </div>
             </div>
-
-            <div class="row">
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-pulse" aria-hidden="true"></i>
-                        <h5>Fast and Simple</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-dashboard" aria-hidden="true"></i>
-                        <h5>Clean Code</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-palette" aria-hidden="true"></i>
-                        <h5>Perfect Design</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-crown" aria-hidden="true"></i>
-                        <h5>Best Industry Leader</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-headphone" aria-hidden="true"></i>
-                        <h5>24/7 Online Support</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-
+          </div>
         </div>
     </section>
     <!-- ***** Awesome Features End ***** -->
 
-    <!-- ***** Video Area Start ***** -->
-    <div class="video-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Video Area Start -->
-                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
-                        <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Video Area End ***** -->
+    <section id="amazon" class="bg-white collapse paas-item show pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="pb-5">
+            <div class="line-shape"></div>
+              <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>	Equipo de Amazon dirigido por Jeff Bezos y Vanguard Group </p>
+              <strong><i class="fa fa-book"></i> Historia: </strong>
+              <p>
+                Lanzado oficialmente en 2006,​ Amazon Web Services ofrece servicios en línea para otros sitios web o aplicaciones del lado del cliente. La mayoría de estos servicios no están expuestos directamente a los usuarios finales, sino que ofrecen una funcionalidad que otros desarrolladores puedan utilizar en sus aplicaciones. Se accede a Amazon Web Services a través de HTTP, utilizando protocolos REST y SOAP. Todos los servicios son facturados en función del uso, pero la forma de uso por la que es medida la facturación varía de un servicio a otro.
 
+                A finales de 2003, Chris Pinkham y Benjamin Black presentaron un documento proponiendo a la compañía construir y vender un conjunto de servicios basados en la experiencia de la construcción y uso de la infraestructura de Amazon.com.​ El primer servicio AWS lanzado para el uso público era Simple Queue Service en noviembre de 2004.4 Amazon EC2 fue construido por un equipo en Sudáfrica, Ciudad del Cabo bajo Pinkham cuyo desarrollador líder fue Chris Brown. <br><br>
+
+                En junio de 2007, Amazon afirmó que más de 330.000 desarrolladores se habían inscrito para utilizar Amazon Web Services.
+                El 20 de abril de 2011, algunas partes de Amazon Web Services sufrieron un corte importante. Una parte de los volúmenes que estaban utilizando el Elastic Block Store (EBS) sufrieron un "atasco" en el servicio y no fueron capaces de llevar a cabo la lectura y escritura de solicitudes. Fueron necesarios al menos dos días para que el servicio fuera plenamente restaurado.
+
+                El 29 de junio de 2012, varios sitios web que se basan en Amazon Web Services perdieron la conexión a la red debido a una fuerte tormenta de proporciones históricas en el área de Virginia del Norte, donde se encuentra el mayor centro de datos de Amazon.
+
+                El 22 de octubre de 2012, se produjo una interrupción importante, que afectó a muchos sitios como reddit, Foursquare, Pinterest entre otros. La causa fue un error de latencia en un agente de recogida de datos de funcionamiento.<br><br>
+
+                En la Nochebuena de 2012, Amazon Web Services volvió a sufrir un corte de luz, causando la caída de sitios web como Netflix ​Para algunos clientes, sobre todo en el norte-este de EE.UU., Amazon emitió posteriormente un comunicado​ que detallaba los problemas con el servicio Elastic Load Balancing que condujo a la interrupción.
+
+                Mientras que los ingresos AWS no se muestran en los resultados financieros de Amazon (pues pertenecen a la categoría "Otros"), analistas de la industria estiman que es más de 1.500 millones de dólares en 2012.<br><br>
+
+
+              </p>
+              <strong><i class="fa fa-list"></i> Características: </strong>
+              <p>
+                •	Disponibilidad de Support <br>
+                • Ámbito de soporte <br>
+                • Centro de soporte <br>
+                • Métodos de contacto <br>
+                • Tiempos de respuesta <br>
+                • Orientación sobre prácticas recomendadas y nuevas características <br>
+                • Soporte para software de terceros <br>
+                • AWS Trusted Advisor <br>
+                • AWS Personal Health Dashboard <br>
+                • Infrastructure Event Management (IEM) <br>
+                • AWS Support Concierge Service <br>
+                • API de AWS Support <br>
+                • Director técnico de cuentas (TAM) <br>
+                • Revisiones empresariales de la administración <br>
+                • Casos resueltos <br>
+
+              </p>
+              </p>
+              <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
+              <p>
+                •	Cambie los gastos de inversiones en capital por gastos variables. <br>
+                •	Benefíciese de la economía de escala masiva.<br>
+                • Deje de adivinar capacidades.<br>
+                • Aumente la velocidad y la agilidad.<br>
+                • Deje de gastar dinero en operar y mantener centros de datos.<br>
+                • Sea mundial en minutos.<br>
+              </p>
+              <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
+              <p>
+              • Complejo <br>
+              • Es tan bueno como se configure. <br>
+              </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="azure" class="bg-white collapse paas-item pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="pb-5">
+            <div class="line-shape"></div>
+              <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>	Equipo de Amazon dirigido por Jeff Bezos y Vanguard Group </p>
+              <strong><i class="fa fa-book"></i> Historia: </strong>
+              <p>
+                Octubre 2008 (PDC LA)<br>
+                • Se anuncia Windows Azure <br>
+                • Primer CTP en Windows Azure <br>
+                Marzo 2009<br>
+                • Se anuncia SQL Database Relational<br>
+                Noviembre 2009<br>
+                • Actualización CTP de Windows Azure<br>
+                • Habilitación Full Trust PHP, Java, CDN CTP y más.<br>
+                • Se anuncia VM Role, Proyecto Sidney, Precios y SLAs<br>
+                • Proyecto “Dallas” CTP<br>
+                Febrero 2010<br>
+                • Versión comercial de la Plataforma Comercial de Windows Azure<br>
+                Junio 2010<br>
+                • Actualización de Windows Azure<br>
+                • .NET Framework 4<br>
+                • Versiones de SO<br>
+                • CDN<br>
+                • Actualización SQL Azure (Actualización de servicio)<br>
+                • Bases de Datos de 50GB<br>
+                • Soporte de datos espaciales<br>
+                • Soporte DAC<br>
+                Octubre 2010<br>
+                • Mejoras en la plataforma<br>
+                • Rol de Máquina Virtual de Windows Azure<br>
+                • Mejoras de roles<br>
+                • Modo Administrador, Tareas de Inicio<br>
+                • Soporte completo-IIS<br>
+                • Instancias Extra Pequeñas<br>
+                • Windows Azure Connect<br>
+                • Acceso a los recursos on-premise para aplicaciones cross-premise<br>
+                • Soporte para Domain-joining VMs<br>
+                • Conexión directa rol-instancia para desarrollo más fácil<br>
+                • Utilizar las herramientas de administración remota existentes<br>
+                • Mejora en experiencia Dev / IT Pro<br>
+                • Nuevo portal Windows Azure de administración de plataforma<br>
+                • Múltiples usuarios y roles para la gestión<br>
+                • Escritorio remoto<br>
+                • Mejoras en Dev Tools<br>
+                • Desarrollo en PHP<br>
+                • Mercado de Add-in<br>
+                Diciembre 2011<br>
+                • Gestor de Tráfico<br>
+                • Reportes de SQL Azure<br>
+                • Planificador HPC<br>
+                Junio 2012<br>
+                • Sitios Web<br>
+                • Máquinas virtuales para Windows y Linux (respaldados por el almacenamiento persistente)<br>
+                • Python SDK<br>
+                • Nuevo Portal<br>
+                • Almacenamiento local redundante<br>
+                Mayo 2013<br>
+                • Servicios Móviles<br>
+                • PHP 5.3<br>
+                • Service Bus<br>
+                Septiembre 2013<br>
+                • Copia de seguridad de Base de Datos<br>
+                • 30 MB Base de datos de SQL<br>
+                • Escalado automático de sitios web<br>
+                Octubre 2013<br>
+                • Biztalk Services<br>
+                • Copia de seguridad de sitios web<br>
+                Noviembre 2013<br>
+                • HDINSIGHT<br>
+                • Cache<br>
+                • PHP 5.5<br>
+                • Visual Studio en línea<br>
+              </p>
+              <strong><i class="fa fa-list"></i> Características: </strong>
+              <p>
+                •	Proceso: el servicio de proceso de Windows Azure ejecuta aplicaciones basadas en Windows Server. Estas aplicaciones se pueden crear mediante .NET Framework en lenguajes como C# y Visual Basic, o implementar sin .NET en C++, Java y otros lenguajes <br>
+                • Almacenamiento: objetos binarios grandes (blobs) proporcionan colas para la comunicación entre los componentes de las aplicaciones de Windows Azure y ofrece un tipo de tablas con un lenguaje de consulta simple <br>
+                • Servicios de infraestructura: posibilidad de desplegar de una forma sencilla máquinas virtuales con Windows Server o con distribuciones de Linux <br>
+                • Controlador de tejido: Windows Azure se ejecuta en un gran número de máquinas. El trabajo del controlador de tejido es combinar las máquinas en un solo centro de datos de Windows Azure formando un conjunto armónico. Los servicios de proceso y almacenamiento de Windows Azure se implementan encima de toda esta eficacia de procesamiento <br>
+                • Red de entrega de contenido (CDN): el almacenamiento en caché de los datos a los que se accede frecuentemente cerca de sus usuarios agiliza el acceso a esos datos <br>
+                • Connect: organizaciones interactúan con aplicaciones en la nube como si estuvieran dentro del propio firewall de la organización <br>
+                • Administración de identidad y acceso: La solución Active Directory permite gestionar de forma centralizada y sencilla el control de acceso y la identidad. Esta solución es perfecta para la administración de cuentas y la sincronización con directorios locales <br>
+
+
+              </p>
+              </p>
+              <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
+              <p>
+                •	Backup y Storage en la nube: es importante tomar en cuenta el almacenamiento y seguridad de sus datos, Azure le ofrece la opción de alojamiento en espacios virtualizados, permitiendo al usuario adquirir la capacidad necesaria bajo un esquema flexible y practico. <br>
+                •	Reducción de costos: Azure se adapta a la demanda del cliente, de manera que solo se paga por los servicios utilizados, permitiendo un ahorro en el consumo, mantenimiento y soporte.<br>
+                • Uso operativo: su flexibilidad permite compartir la misma plataforma que utiliza Skype, Office 365, Bing y Xbox, ofreciendo soporte técnico continuo y una supervisión puntual del estado del servicio.<br>
+                • Abierto y flexible: Azure admite cualquier sistema operativo, lenguaje, herramienta y marco, permitiendo crear aplicaciones y servicios que puedan funcionar con cualquier dispositivo.<br>
+              </p>
+              <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
+              <p>
+              • Es de paga y algo caro <br>
+              • Es tan bueno como se configure. <br>
+              • Fiel a muchos proyectos de microsoft. <br>
+              </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="google" class="bg-white collapse paas-item pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="pb-5">
+            <div class="line-shape"></div>
+              <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>	Equipo de Google  </p>
+              <strong><i class="fa fa-book"></i> Historia: </strong>
+              <p>
+                Google Cloud (Nube de Google), es una plataforma que ha reunido todas las aplicaciones de desarrollo web que Google estaba ofreciendo por separado. Es utilizada para crear ciertos tipos de soluciones a través de la tecnología almacenada en la nube y permite por ejemplo destacar la rapidez y la escalabilidad de su infraestructura en las aplicaciones del buscador. <br><br>
+
+                Google Cloud se refiere al espacio virtual a través del cual se puede realizar una serie de tareas que antes requerían de hardware o software y que ahora utilizan la nube de Google como única forma de acceso, almacenamiento y gestión de datos.<br><br>
+
+                Google ofrece una variedad de servicios basados en la nube. Google Cloud Print permite imprimir desde la web, el escritorio o dispositivo móvil sin la necesidad de un sistema operativo en particular o controladores. En su lugar, envías el documento a cualquier impresora conectada a la nube. Google también ofrece espacio en la nube para desarrolladores de bases de datos SQL para crear aplicaciones, así como para los usuarios de Microsoft Office que deseen editar colaborativamente documentos de Word, PowerPoint y Excel, sin necesidad de la utilización de un cliente local.
+              </p>
+              <strong><i class="fa fa-list"></i> Características: </strong>
+              <p>
+                •	Provee también de resultados de búsqueda en milisegundos <br>
+                • Posee espacio de almacenamiento para más de 400 millones de usuarios del Gmail <br>
+                • La red global utilizada por Google Cloud Platform está abastecida por fibra óptica y conecta con todos los rincones del planeta. Usar esta plataforma significa tener acceso a todas las innovaciones de Google <br>
+              </p>
+              </p>
+              <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
+              <p>
+                • Mejor precio que el de la competencia <br>
+                • Red de fibra global privada <br>
+                • Migración en vivo de máquinas virtuales <br>
+                • Rendimiento mejorado <br>
+                • Seguridad de última tecnología <br>
+                • Respaldos de seguridad redundantes <br>
+              </p>
+              <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
+              <p>
+              • Menos servicios en general que los contrincantes <br>
+              </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gogrid" class="bg-white collapse paas-item pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="pb-5">
+            <div class="line-shape"></div>
+              <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>	GoGrid, LLC  </p>
+              <strong><i class="fa fa-book"></i> Historia: </strong>
+              <p>
+                En julio de 2008, GoGrid fue seleccionado como finalista por el Premio de Excelencia de Producto LinuxWorld 2008 por IDG World Expo y LinuxWorld.com. <br>
+                En mayo de 2010, GoGrid fue nombrado en la lista de Lead411 de "2010 Hottest San Francisco Companies".<br>
+                En junio de 2010, GoGrid ganó el premio "Best Channel Incentives" en la Cumbre de éxito de distribuidores ASCII 2010.<br>
+                En marzo de 2012, GoGrid fue seleccionado como ganador de la Categoría de Infraestructura de Nube en OnDemand 2012, por AlwaysOn.<br>
+                En 2011-2014, GoGrid apareció en el Cuadrante Mágico de Gartner Cloud Infrastructure-as-a-Service (IaaS).<br>
+              </p>
+              <strong><i class="fa fa-list"></i> Características: </strong>
+              <p>
+                GoGrid Cloud Hosting le permite construir la infraestructura en la nube escalable a múltiples data centers dedicados y servidores en la nube, hardware F5 flexible carga el balance, y el almacenaje en la nube con el control total de la automatización y el autoservicio.<br><br>
+
+                GoGrid es un servicio de alojamiento en la nube que permite el aprovisionamiento automatizado de infraestructura de hardware y virtual sobre Internet. Con una utilidad de modelo de facturación, varios términos de facturación, y ningún compromiso a largo plazo, usted tiene la flexibilidad para construir la infraestructura en la nube para las necesidades específicas de negocio.
+              </p>
+              </p>
+              <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
+              <p>
+                • Buen modelo de facturación <br>
+                • Pago por uso barato <br>
+                • Especialización muy singular <br>
+              </p>
+              <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
+              <p>
+              • Poco reconocimiento <br>
+              • Mercado muy limitado <br>
+              </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rackspace" class="bg-white collapse paas-item pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="pb-5">
+            <div class="line-shape"></div>
+              <strong><i class="fa fa-user"></i> Desarrollador: </strong><p>Richard Yoo, Dirk Elmendorf, Patrick Condon, Morris Miller </p>
+              <strong><i class="fa fa-book"></i> Historia: </strong>
+              <p>
+                En 1996, Richard Yoo inicio un pequeño proveedor de servicios de Internet llamado Cymitar Network Systems fuera del garaje de su apartamento en San Antonio, Texas. La compañía comenzó a hacer desarrollo de aplicaciones, además de ofrecer acceso básico a Internet y alojamiento web. En 1997, Yoo introdujo a Dirk Elmendorf a la compañía. Cuando la compañía comenzó a desarrollar aplicaciones de Internet como su principal negocio, la empresa fue renombrada como Cymitar Technology Group. Como Cymitar Technology Group creció, Patrick Condon fue reclutado desde California y se unió al equipo en 1998. Casualmente, los tres fundadores de la compañía fueron estudiantes al mismo tiempo en la Universidad Trinity en San Antonio. <br> <br>
+
+                Aunque los fundadores comenzaron como desarrolladores de aplicaciones para usuarios finales, se encontraron con que la mayoría de las empresas no sabían bien cómo deseaban alojar sus aplicaciones. Los fundadores querían centrarse en el desarrollo de aplicaciones, no en alojamiento, pero no fueron capaces de encontrar una oportunidad para tercerizar el trabajo de alojamiento. Con el tiempo, los fundadores se dieron cuenta de que sería mejor crear un producto para servir a la necesidad de alojamiento y lanzarlo como empresa. Rackspace se puso en marcha en octubre de 1998 con Richard Yoo como su CEO. Aunque la mayoría de las empresas de alojamiento se centraron en la parte de tecnología del alojamiento, Rackspace creó su "Fanatical Support" que ofrece centrarse en el servicio y en el soporte.​ El 28 de marzo de 2000, Rackspace recibió financiación a través de Norwest Venture Partners y Sequoia Capital. George J. Still, Jr., socio gerente de Norwest, se incorporó posteriormente a la Junta Directiva.
+              </p>
+              <strong> <i class="fa fa-list"></i> Características: </strong>
+              <p>
+                •	Expertos en servicio de hospedaje dedicado en la nube. Necesita evolucionar e innovar para lograr el éxito. Pero la nube es tan compleja como potente. Nuestros expertos están certificados en todas las tecnologías líderes en la nube, por lo que no será necesario que usted lo esté.
+              </p>
+              </p>
+              <strong><i class="fa fa-arrow-circle-up"></i> Ventajas:</strong>
+              <p>
+                •	Comercio electrónico: Cuando la velocidad de su sitio desciende, ocurre lo mismo con las conversiones. La CDN puede impulsar los tiempos de carga para sus sitios web encargados de generar ingresos, lo que mejorará las conversiones y aumentará los ingresos de su empresa. Cuando su sitio es su caja registradora, la velocidad es primordial. <br>
+                •	Sitios web: Capte a sus clientes con imágenes detalladas, transmisiones de video y un contenido fantástico sin sacrificar la velocidad. Su sitio web es un reflejo de su marca, por lo que debe utilizar nuestra CDN para crear una experiencia de navegación impecable.<br>
+                • Aplicaciones web:	El desempeño de su aplicación web es crucial y, teniendo usuarios en todo el mundo, contar con una CDN es una manera rentable de mejorar la velocidad y eliminar la necesidad de tener múltiples centros de datos.<br>
+              </p>
+              <strong><i class="fa fa-arrow-circle-down"></i> Desventajas:</strong>
+              <p>
+              • Algunas de las características de Shopify no son muy personalizables.. <br>
+              • Hay una gran adaptabilidad en cuanto a diseño y pasarelas de pago se refiere. <br>
+              • El proceso de Checkout es más estandarizado, solo te da cabida para algunas modificaciones de la apariencia. <br>
+              • La atención telefónica del centro de ayuda, por el momento solo está disponible en inglés, al igual que varias partes de su página web y los materiales informativos. <br>
+              </p>
+              <strong>Información importante</strong>
+              <p>
+                Servicios que ofrece. <br>
+                •	Managed Hosting <br>
+                •	Managed Cloud <br>
+                •	Conectividad de la nube <br>
+                •	Public Cloud <br>
+                •	Private Cloud <br>
+                •	Hybrid Cloud <br>
+                •	Virtulización <br>
+                •	Colation <br>
+                •	Servicio de aplicaciones <br>
+                •	Business Intelligence <br>
+                •	Cloud <br>
+                •	BD <br>
+                •	MAIL <br>
+                •	ERP <br>
+                •	Contenido Web <br>
+                •	Servicios profesionales. <br>
+                •	Seguridad y cumplimiento de normas. <br>
+
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ***** Cool Facts Area Start ***** -->
     <section class="cool_facts_area clearfix">
         <div class="container">
@@ -755,436 +1018,12 @@
     </section>
     <!-- ***** App Screenshots Area End *****====== -->
 
-    <!-- ***** Pricing Plane Area Start *****==== -->
-    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text  -->
-                    <div class="section-heading text-center">
-                        <h2>Pricing Plan</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row no-gutters">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Starter Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>29</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Basic Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>49</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan active text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Advenced Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>69</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Community Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>99</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Pricing Plane Area End ***** -->
 
-    <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="slider slider-for">
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Aigars Silkalns</h5>
-                                <p>Ceo Colorlib</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Jennifer</h5>
-                                <p>Developer</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Helen</h5>
-                                <p>Marketer</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Henry smith</h5>
-                                <p>Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Client Thumbnail Area -->
-                <div class="col-12 col-md-6 col-lg-5">
-                    <div class="slider slider-nav">
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-3.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-2.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-1.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Client Feedback Area End ***** -->
-
-    <!-- ***** CTA Area Start ***** -->
-    <section class="our-monthly-membership section_padding_50 clearfix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="membership-description">
-                        <h2>Join our Monthly Membership</h2>
-                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                        <a href="#">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** CTA Area End ***** -->
-
-    <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Our Team</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Jackson Nash</h4>
-                            <p>Tax Advice</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Alex Manning</h4>
-                            <p>CEO-Founder</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Ollie Schneider</h4>
-                            <p>Business Planner</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-4.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Roger West</h4>
-                            <p>Financer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Our Team Area End ***** -->
-
-    <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                    <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                    </div>
-                    <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
-                    </div>
-                    <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
-                    </div>
-                    <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Contact Us Area End ***** -->
 
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-social-icon text-center section_padding_70 clearfix">
-        <!-- footer logo -->
-        <div class="footer-text">
-            <h2>Ca.</h2>
-        </div>
-        <!-- social icon-->
-        <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        </div>
-        <div class="footer-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Foooter Text-->
-        <div class="copyright-text">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-        </div>
+
     </footer>
     <!-- ***** Footer Area Start ***** -->
 

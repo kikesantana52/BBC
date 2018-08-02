@@ -127,6 +127,10 @@ img {
 .mt-40 {
     margin-top: 40px;
 }
+.port-item{
+  width: 20%;
+  font-size: 1.5em;
+}
 
 .mt-50 {
     margin-top: 50px;
@@ -446,7 +450,7 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -130px;
+    bottom: 0px;
     right: 85px;
     z-index: 9;
 }
@@ -717,7 +721,12 @@ p {
     border-radius: 20px;
 }
 
-
+.activate-pass{
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 0 2px 2px 0;
+  border-color: black gray;
+}
 .video-area .video-play-btn a {
     width: 80px;
     height: 80px;
